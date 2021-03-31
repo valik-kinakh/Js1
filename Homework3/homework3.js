@@ -86,10 +86,26 @@ lastElem(arr2,quantity);
 
 //////////////Task8//////////////
 let str=prompt("Enter a sentence below:");
-function upperLetter(str) {
+function upperLetter(string) {
     String.prototype.replace;
+    String.prototype.slice;
+    String.prototype.charAt;
+    String.prototype.split;
     String.prototype.toUpperCase;
     //використовую Reg expressions(\S-символи без пробілів  ^-початок рядка \s-після будь-якого пробілу g-глобальне співпадіння)
-    return str.replace(/(^|\s)\S/g, function(a) {return a.toUpperCase()})
+    return string.replace(/(^|\s)\S/g, function(a) {return a.toUpperCase()})
+    //Alternative
+
+    // let strArray=string.split(' ');
+    // let arr3=[];
+    // for (let i = 0; i < strArray.length; i++) {
+    //     arr3[i]=(strArray[i].charAt(0).toUpperCase()+strArray[i].slice(1))
+    // }
+    // let newStr="";
+    // for (let i = 0; i < arr3.length; i++) {
+    //    newStr+=arr[i]+" ";
+        
+    // }
+    // return newStr;
 }
 console.log(upperLetter(str));
