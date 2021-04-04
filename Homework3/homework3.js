@@ -77,12 +77,11 @@ function lastElem(arr2,quantity) {
     if (quantity==undefined || quantity>arr2.length || quantity<1) {
         quantity=1;
     }
-
     for (let i = arr2.length-quantity; i < arr2.length; i++) {
         console.log(arr2[i]);
     }
 }
-lastElem(arr2,quantity);
+lastElem(arr2);
 
 //////////////Task8//////////////
 let str=prompt("Enter a sentence below:");
