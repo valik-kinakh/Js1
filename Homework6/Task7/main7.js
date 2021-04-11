@@ -1,0 +1,10 @@
+let newMain=document.createElement("main");
+newMain.className="mainClass check item";
+let newDiv=document.createElement("div");
+newDiv.id="myDiv";
+newMain.appendChild(newDiv);
+let newP=document.createElement("p");
+newDiv.appendChild(newP);
+let newText=document.createTextNode("First paragraph");
+newP.appendChild(newText);
+document.getElementsByTagName("body")[0].appendChild(newMain);
