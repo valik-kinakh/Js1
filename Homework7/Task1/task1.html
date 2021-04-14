@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let newWindow=window.open("","","width=300,height=300");
+       function resWindow() {
+           newWindow.resizeTo(500,500);
+       }
+       setTimeout(resWindow,2000);
+       function changeCordinates() {
+           newWindow.moveTo(200,200);
+       }
+       setTimeout(changeCordinates,4000);
+       function winClose() {
+           newWindow.close();
+       }
+       setTimeout(winClose,6000);
+    </script>
+</body>
+</html>
