@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+    background:linear-gradient(45deg,#efefbb,#d4d3dd);
+}
+.header
+{
+   overflow: hidden;
+   padding: 10px 10px;
+    width: 98%;
+    background:linear-gradient(45deg,#fdfc47,#24fe41);
+    color: black;
+    border-radius: 40px;
+    margin-left: 7px;
+    border: 3px solid black;
+}
+#timer
+{
+    float: left;
+    font-family: "Comic Sans MS";
+    display: inline;
+    margin-left: 20px;
+}
+#headerText
+{
+    display: inline;
+    float: right;
+    margin-right: 50px;
+    font-family: "Comic Sans MS";
+}
+footer
+{
+   margin-bottom: 0px;
+   height: 30px;
+   position: fixed;
+}
+.footer
+{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: lawngreen;
+    color: black;
+    text-align: center;
+    border-radius: 40px;
+    font-family: "Comic Sans MS";
+}
+.element:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.element {
+    position: relative;
+    width: 710px;
+    height: 250px;
+    background-color: coral;
+    border:3px solid black;
+    display: inline-block;
+    border-radius: 60px;
+
+}
+
+.elementImg {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 85px;
+    width: 100px;
+    height: 100px;
+
+}
+#Bulb
+{
+    margin-top: 30px;
+}
+#Air
+{
+    margin-top: 30px;
+}
+#minus
+{
+    position:absolute;
+    width: 40px;
+    height: 50px;
+    margin-left: 235px;
+    margin-top: 180px;
+}
+#plus
+{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 415px;
+    margin-top: 160px;
+}
+#temp
+{
+    position:absolute;
+    margin-left: 348px;
+    margin-top: 195px;
+    font-family: "Comic Sans MS";
+    font-size: 1.3em;
+}
+.room
+{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 98%;
+    margin-left: 7px;
+    margin-top: 10px;
+    background:linear-gradient(45deg,#fc00ff,#00dbde);
+    height: 50px;
+}
+.room>h2
+{
+    color: white;
+    margin-top: 7px;
+}
+.delete
+{
+    position: relative;
+    text-align: left;
+    font-family: "Comic Sans MS";
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 98%;
+    margin-left: 7px;
+    margin-top: 10px;
+    background:linear-gradient(45deg,#add100,#7b920a);
+}
+#deleteText
+{
+    margin-left: 20px;
+    display: inline;
+}
+#deleteElem
+{
+    float: right;
+    display: inline;
+    margin-top: 7.5px;
+    margin-right: 50px;
+    font-size: 1em;
+}
+#deletion
+{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+}
+.add
+{
+    position: relative;
+    text-align: left;
+    font-family: "Comic Sans MS";
+    border: 3px solid black;
+    border-radius: 30px;
+    width: 98%;
+    margin-left: 7px;
+    margin-top: 10px;
+    background:linear-gradient(45deg,#add100,#7b920a);
+}
+#addText
+{
+    margin-left: 20px;
+    display: inline;
+}
+#addElem
+{
+    float: right;
+    display: inline;
+    margin-top: 7.5px;
+    margin-right: 50px;
+    font-size: 1em;
+}
+#addition
+{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+}

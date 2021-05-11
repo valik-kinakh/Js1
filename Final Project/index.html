@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Smart house</title>
+  </head>
+  <body>
+    <div class="header">
+      <h2 id="timer"></h2>
+      <h2 id="headerText">Smart house</h2>
+    </div>
+    <script src="timer.js"></script>
+
+    <div class="room">
+      <h2>Flat</h2>
+    </div>
+
+    <div class="delete">
+      <h2 id="deleteText">Here you can delete an element</h2>
+      <select id="deleteElem">
+        <option value="Bulb">Bulb</option>
+        <option value="Air">Air</option>
+        <option value="Alarm">Alarm</option>
+        <option value="TV">TV</option>
+        <option value="Washer">Washer</option>
+        <option value="Vacuum">Vacuum cleaner</option>
+      </select>
+      <button id="deletion">Click to delete</button>
+    </div>
+
+    <div class="add">
+      <h2 id="addText">Here you can add an element</h2>
+      <select id="addElem">
+        <option value="Bulb">Bulb</option>
+        <option value="Air">Air</option>
+        <option value="Alarm">Alarm</option>
+        <option value="TV">TV</option>
+        <option value="Washer">Washer</option>
+        <option value="Vacuum">Vacuum cleaner</option>
+      </select>
+      <button id="addition">Click to add</button>
+    </div>
+
+    <div id="appliance">
+      <div id="Bulb" class="element">
+        <img class="elementImg" src="img/bulb.svg" />
+      </div>
+      <div id="Air" class="element">
+        <img class="elementImg" src="img/air conditioning indoor.svg" />
+        <img src="img/minus.png" id="minus" alt="minus" />
+        <img src="img/plus.png" id="plus" alt="plus" />
+        <p id="temp"></p>
+      </div>
+      <div id="Alarm" class="element">
+        <img class="elementImg" src="img/alarm.svg" />
+      </div>
+      <div id="TV" class="element">
+        <img class="elementImg" src="img/tv.svg" />
+      </div>
+      <div id="Washer" class="element">
+        <img class="elementImg" src="img/washer.svg" />
+      </div>
+      <div id="Vacuum" class="element">
+        <img class="elementImg" src="img/vacuum cleaning robot.svg" />
+      </div>
+    </div>
+
+    <div id="newDiv"></div>
+
+    <footer class="footer">
+      <p>&copy;SoftServe 2021</p>
+    </footer>
+    <script src="appliance.js"></script>
+  </body>
+</html>
